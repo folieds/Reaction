@@ -15,6 +15,7 @@ async def start_command(_, msg: Message):
     return await msg.reply(
         text=WelcomeText % {'first_name': msg.from_user.first_name if msg.from_user else 'Anonymous'},
         quote=True,
+        disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
