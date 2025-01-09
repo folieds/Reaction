@@ -1,2 +1,2 @@
-https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
+pyrogram
 tgcrypto
